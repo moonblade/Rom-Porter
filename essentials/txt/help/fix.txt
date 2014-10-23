@@ -1,0 +1,16 @@
+
+
+      No one said Porting is Perfect, Theres bound to be some 
+	     Bugs or Errors Somewhere. Right?
+
+
+	Use the "Fix" Option when you run into trouble.
+	
+	            It can fix Bootloops 
+	
+	and Also for HTC devices - Network Auto select Error.
+	                           Graphics Bug (Soon)
+
+	
+	
+	

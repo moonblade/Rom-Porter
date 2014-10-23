@@ -1,0 +1,3 @@
+# Power Save Tweaks
+ro.ril.disable.power.collapse=1
+pm.sleep_mode=1

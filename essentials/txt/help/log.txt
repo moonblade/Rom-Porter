@@ -1,0 +1,22 @@
+
+
+
+     A log is essentially a file which indicates what happens when a 
+		   
+    Program runs. It also reports any errors in it, So when you Report 
+		 
+    an error, If you also give a log with it, The developer can find the 
+	
+                   reason for the error much faster.
+		 
+		 
+	Use the "Pull Log File" Option to pull the log of your activity,
+		    
+	     By default, it is saved in LOG directory
+	
+	
+	
+	
+	
+	
+	

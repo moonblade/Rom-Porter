@@ -1,0 +1,1 @@
+ro.kernel.android.checkjni=0

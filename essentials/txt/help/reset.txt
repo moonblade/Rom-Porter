@@ -1,0 +1,16 @@
+
+
+
+	       After A ROM Porting, There'll Be Lots of junk
+	
+	       Files Around, So Gettin rid of it is necessary
+	
+	            Before Another Porting Starts.
+
+			
+		So Use The "Reset" Option, Which restores the
+				
+	     Default options and deletes the BASE and PORT folder.	
+	
+	
+	

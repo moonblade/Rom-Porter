@@ -1,0 +1,17 @@
+
+
+          Of course New versions are released and it would be a chore to 
+
+      Go to the Tool Thread looking for it, So why not bring the updates here!
+
+         
+          The "Check for Updates" Option, Checks whether the Tool you have
+		     
+           is the latest version out there. If its not, It downloads the 
+			 
+                 Newest version and stores it in UPDATE Directory
+
+
+
+				 
+			 

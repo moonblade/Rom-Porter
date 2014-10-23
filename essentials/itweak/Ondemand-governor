@@ -1,0 +1,4 @@
+#!/system/bin/sh
+SAMPLING_RATE=$(busybox expr `cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_transition_latency` \* 750 / 1000)
+echo 95 > /sys/devices/system/cpu/cpufreq/ondemand/up_threshold
+echo $SAMPLING_RATE > /sys/devices/system/cpu/cpu0/cpufreq/ondemand/sampling_rate

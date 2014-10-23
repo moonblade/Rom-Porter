@@ -1,0 +1,5 @@
+ro.config.hw_menu_unlockscreen=false
+persist.sys.use_dithering=0
+persist.sys.purgeable_assets=1        
+dalvik.vm.dexopt-flags=m=y
+ro.mot.eri.losalert.delay=1000

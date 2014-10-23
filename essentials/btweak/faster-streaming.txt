@@ -1,0 +1,2 @@
+media.stagefright.enable-meta=true
+media.stagefright.enable-record=false

@@ -1,0 +1,1 @@
+ro.media.enc.jpeg.quality=100

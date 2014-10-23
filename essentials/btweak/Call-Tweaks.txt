@@ -1,0 +1,4 @@
+# Call Tweaks
+ro.telephony.call_ring.delay=0
+ro.lge.proximity.delay=25
+mot.proximity.delay=25

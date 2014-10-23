@@ -1,0 +1,2 @@
+set_perm(0, 0, 06755, "/system/xbin/invoke-as");
+set_perm(0, 0, 0755, "/system/lib/liblbesec.so");

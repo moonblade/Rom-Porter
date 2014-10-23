@@ -1,0 +1,18 @@
+
+
+
+	1. Use the start/continue Porting Option.
+	
+	2. Choose the Rom you are porting.
+	
+	3. Enter the Build.id, Build.name etc etc for your Rom.
+	
+	4. Enter Some Extra Details for individual Roms.
+	
+	5. Add the tweaks you would like.
+	
+	6. Enter the Rom Name and it will be zipped.
+
+	
+	
+	

@@ -1,0 +1,1 @@
+set_perm(1000, 1000, 0644, "/system/etc/paranoid/properties.conf");

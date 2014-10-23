@@ -1,0 +1,6 @@
+--> Open dsixda's Android Kitchen
+--> Decompile both boot.img/kernel
+--> Open both init.rc files
+--> In CM/AOSP kernel replace BOOTCLASSPATH by the one from PORT boot.img ROM
+--> Save and recompile kernel
+--> Use CM/AOSP modified kernel in your rom.

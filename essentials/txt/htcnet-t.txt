@@ -1,0 +1,1 @@
+    <bool name="skip_restoring_network_selection">true</bool>
