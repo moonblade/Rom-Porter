@@ -1,2 +1,5 @@
  
 Version Selected as 64 bit.
+Rom Selected as miui  
+Extracting Started 
+Version Selected as 64 bit.
