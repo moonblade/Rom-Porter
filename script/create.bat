@@ -32,8 +32,8 @@ if exist %u% RD /S /Q %u%
 mkdir %u%
 mkdir %u%\essentials
 mkdir %u%\script
-xcopy essentials\* %u%\essentials /e
-xcopy script\* %u%\script /e
+essentials\xcopy essentials\* %u%\essentials /e
+essentials\xcopy script\* %u%\script /e
 set execopy=0
 if exist ROM-PORTER.exe copy ROM-PORTER.exe %u% & set execopy=1
 copy ROM-PORTER.bat %u%

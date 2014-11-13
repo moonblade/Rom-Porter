@@ -19,8 +19,8 @@ cls
 echo Copying Base\etc Started >>script\txt\log.txt
 set ab=BASE\system\etc
 set ap=PORT\system\etc
-xcopy %ab%\*.* %ap%\*.* /y
-xcopy %ap%\*.* %ab%\*.* /y
+essentials\xcopy %ab%\*.* %ap%\*.* /y
+essentials\xcopy %ap%\*.* %ab%\*.* /y
 if errorlevel 1 (
 echo.
 echo Sorry, But an error occured
@@ -33,8 +33,8 @@ echo Copying Base\etc Completed >>script\txt\log.txt
 echo Copying Base\bin Started >>script\txt\log.txt
 set ab=BASE\system\bin
 set ap=PORT\system\bin
-xcopy %ab%\* %ap%\* /y
-xcopy %ap%\* %ab%\* /y
+essentials\xcopy %ab%\* %ap%\* /y
+essentials\xcopy %ap%\* %ab%\* /y
 if errorlevel 1 (
 echo.
 echo Sorry, But an error occured
@@ -48,8 +48,8 @@ echo Copying Base\bin Completed >>script\txt\log.txt
 echo Copying Base\init.d Started >>script\txt\log.txt
 set ab=BASE\system\etc\init.d
 set ap=PORT\system\etc\init.d
-if exist %ap% xcopy %ab%\* %ap%\* /y
-xcopy %ap%\* %ab%\* /y
+if exist %ap% essentials\xcopy %ab%\* %ap%\* /y
+essentials\xcopy %ap%\* %ab%\* /y
 if errorlevel 1 (
 echo.
 echo Sorry, But an error occured
@@ -63,8 +63,8 @@ echo Copying Base\etc\init.d Completed >>script\txt\log.txt
 echo Copying Base\permissions Started >>script\txt\log.txt
 set ab=BASE\system\etc\permissions
 set ap=PORT\system\etc\permissions
-xcopy %ab%\* %ap%\* /y
-xcopy %ap%\* %ab%\* /y
+essentials\xcopy %ab%\* %ap%\* /y
+essentials\xcopy %ap%\* %ab%\* /y
 if errorlevel 1 (
 echo.
 echo Sorry, But an error occured
@@ -78,8 +78,8 @@ echo Copying Base\etc\permissions Completed >>script\txt\log.txt
 echo Copying Base\lib Started >>script\txt\log.txt
 set ab=BASE\system\lib
 set ap=PORT\system\lib
-if exist %ap% xcopy %ab%\*.so %ap%\* /y
-xcopy %ap%\* %ab%\* /y
+if exist %ap% essentials\xcopy %ab%\*.so %ap%\* /y
+essentials\xcopy %ap%\* %ab%\* /y
 if errorlevel 1 (
 echo.
 echo Sorry, But an error occured
@@ -93,8 +93,8 @@ echo Copying Base\lib Completed >>script\txt\log.txt
 echo Copying Base\xbin Started >>script\txt\log.txt
 set ab=BASE\system\xbin
 set ap=PORT\system\xbin
-xcopy %ab%\* %ap%\* /y
-xcopy %ap%\* %ab%\* /y
+essentials\xcopy %ab%\* %ap%\* /y
+essentials\xcopy %ap%\* %ab%\* /y
 if errorlevel 1 (
 echo.
 echo Sorry, But an error occured

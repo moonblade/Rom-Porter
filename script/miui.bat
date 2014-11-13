@@ -12,11 +12,11 @@ set v=PORT\system
 echo.
 echo MIUI Specific Editing.
 echo.
-if exist PORT\system\etc\telocation.db xcopy PORT\system\etc\telocation.db BASE\system\etc\telocation.db /Y
-if exist PORT\system\etc\yellowpage.db xcopy PORT\system\etc\yellowpage.db BASE\system\etc\yellowpage.db /Y
-if exist PORT\system\lib\content-types.properties xcopy PORT\system\lib\content-types.properties BASE\system\lib\content-types.properties /Y
-if exist PORT\system\xbin\invoke-as xcopy PORT\system\xbin\invoke-as BASE\system\xbin\invoke-as /Y
-if exist PORT\system\xbin\liblbesec.so xcopy PORT\system\xbin\liblbesec.so BASE\system\xbin\liblbesec.so /Y
+if exist PORT\system\etc\telocation.db essentials\xcopy PORT\system\etc\telocation.db BASE\system\etc\telocation.db /Y
+if exist PORT\system\etc\yellowpage.db essentials\xcopy PORT\system\etc\yellowpage.db BASE\system\etc\yellowpage.db /Y
+if exist PORT\system\lib\content-types.properties essentials\xcopy PORT\system\lib\content-types.properties BASE\system\lib\content-types.properties /Y
+if exist PORT\system\xbin\invoke-as essentials\xcopy PORT\system\xbin\invoke-as BASE\system\xbin\invoke-as /Y
+if exist PORT\system\xbin\liblbesec.so essentials\xcopy PORT\system\xbin\liblbesec.so BASE\system\xbin\liblbesec.so /Y
 if errorlevel 1 (
 echo.
 echo Sorry, But an error occured

@@ -15,7 +15,7 @@ set v=PORT\system
 
 set /p name=<script\txt\name.txt
 set name=%name: =%
-REM xcopy /e /s /d "%v%" "%u%"
+REM essentials\xcopy /e /s /d "%v%" "%u%"
 For %%F In (%v%\*) Do If Not Exist %u%\%%~nF Copy %%F %u%
 if errorlevel 1 (
 echo.

@@ -147,7 +147,7 @@ echo copying meta-inf and androidmanifest.xml to framework-res >>script\txt\log.
 copy essentials\7za.exe temp
 cd temp
 mkdir META-INF
-xcopy old\META-INF\* META-INF /e
+essentials\xcopy old\META-INF\* META-INF /e
 copy old\AndroidManifest.xml
 7za.exe a "%name%.zip" "META-INF"
 7za.exe a -y "%name%.zip" "AndroidManifest.xml"
@@ -165,7 +165,7 @@ cd..
 if exist temp\%name%.zip rename temp\%name%.zip %name%.apk 
 
 echo replacing the framework-res.apk >>script\txt\log.txt
-xcopy temp\%name%.apk BASE\system\framework /y /e
+essentials\xcopy temp\%name%.apk BASE\system\framework /y /e
 if errorlevel 1 (
 echo.
 Echo Some Error Occured.

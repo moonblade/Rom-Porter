@@ -78,8 +78,8 @@ if %aroma%==n goto next2
 if %aroma%==y (
 if exist BASE\META-INF  RD /S /Q BASE\META-INF
 mkdir BASE\META-INF
-xcopy PORT\META-INF\* BASE\META-INF /e /y
-xcopy PORT\* BASE /y /e /exclude:essentials\txt\exclude.txt
+essentials\xcopy PORT\META-INF\* BASE\META-INF /e /y
+essentials\xcopy PORT\* BASE /y /e /exclude:essentials\txt\exclude.txt
 )
 if errorlevel 1 (
 echo.

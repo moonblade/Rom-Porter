@@ -63,9 +63,9 @@ call script\fail.bat
 :a
 cls
 echo Bootloop fix started >>script\txt\log.txt
-if exist PORT\system\lib\libandroid_runtime.so xcopy PORT\system\lib\libandroid_runtime.so BASE\system\lib\libandroid_runtime.so /Y
-if exist PORT\system\lib\libandroid_servers.so xcopy PORT\system\lib\libandroid_servers.so BASE\system\lib\libandroid_servers.so /Y
-if exist PORT\system\lib\libmedia_ini.so xcopy PORT\system\lib\libmedia_ini.so BASE\system\lib\libmedia_ini.so /Y
+if exist PORT\system\lib\libandroid_runtime.so essentials\xcopy PORT\system\lib\libandroid_runtime.so BASE\system\lib\libandroid_runtime.so /Y
+if exist PORT\system\lib\libandroid_servers.so essentials\xcopy PORT\system\lib\libandroid_servers.so BASE\system\lib\libandroid_servers.so /Y
+if exist PORT\system\lib\libmedia_ini.so essentials\xcopy PORT\system\lib\libmedia_ini.so BASE\system\lib\libmedia_ini.so /Y
 if errorlevel 1 (
 echo Sorry, But an error occured
 echo Bootloop fix errored out >>script\txt\log.txt

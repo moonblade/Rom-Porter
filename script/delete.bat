@@ -59,7 +59,7 @@ if %option%==n goto next2
 if %option%==y (
 REM if exist BASE\system\priv-app RD /S /Q BASE\system\priv-app
 if not exist BASE\system\priv-app mkdir BASE\system\priv-app
-xcopy PORT\system\priv-app\* BASE\system\priv-app /y /e
+essentials\xcopy PORT\system\priv-app\* BASE\system\priv-app /y /e
 )
 if errorlevel 1 (
 echo.
@@ -78,9 +78,9 @@ if %aroma%==n goto next2
 if %aroma%==y (
 if exist BASE\META-INF  RD /S /Q BASE\META-INF
 mkdir BASE\META-INF
-xcopy PORT\META-INF\* BASE\META-INF /e /y
+essentials\xcopy PORT\META-INF\* BASE\META-INF /e /y
 
-xcopy PORT\* BASE /y /e /exclude:essentials\txt\exclude.txt
+essentials\xcopy PORT\* BASE /y /e /exclude:essentials\txt\exclude.txt
 )
 if errorlevel 1 (
 echo.
