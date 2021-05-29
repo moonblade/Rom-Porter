@@ -1,6 +1,6 @@
 # Rom Porter
 
-Had found a guide on xda for porting ROMs to other devices. Figured I'd try automating those steps to be able to do the same with zero knowledge, just following prompts on screen with ideally zero user input. Was big into android at that point and this would be my contribution to the community.
+Had found a guide on xda for porting ROMs to other devices. Figured I'd try automating those steps to be able to do the same with zero knowledge, just following prompts on screen with ideally zero user input. Was big into android at that point and this would be my contribution to the community. [Xda dev thread](https://forum.xda-developers.com/t/tool-rom-porter.2276871/)
 
 This was my first forey into programming for others, which means it would need to be idiot proof. This was also the first time programming something that isn't a one file program. 
 
